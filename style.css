@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/*----------------------navbar-----------------------------------*/
+.navbar{
+    background-color: #0f171e;
+    height: 72px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: #9BA09D;
+    position: fixed; 
+    cursor: pointer;
+    z-index: 10;
+    
+}
+
+.menu-icon{
+    width: 140px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.leftnav{
+    padding: 0;
+    margin: 0;
+}
+
+.middlenav{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    
+    
+}
+.middlenav ul li{
+    padding: 10px;
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    
+}
+.middlenav ul li:hover{
+    color: white;
+}
+.rightnav{
+    display: flex;
+    align-items: center;
+    padding-left: 400px;
+    font-size: larger;
+    cursor: pointer;
+
+}
+.rightnav img{
+    padding: 15px;
+}
+button{
+    background-color: #1399DE;
+    color: antiquewhite;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+}
+.globe{
+    width: 50px;
+    height: 50px;
+    padding: 6px;
+    
+}
+.person{
+    width: 60px;
+    height: 60px;
+    color: aliceblue;
+}
+
+
+/*-------------manidiv-----------------------------------------------*/
+
+
+.image1{
+    
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+
+.maindiv1{
+    position: relative;
+    top:1.9cm;
+
+
+    z-index: 8;
+   
+
+}
+.textoneh1{
+    color: aliceblue;
+    display: block;
+    position: absolute;
+    top: 13%;
+    padding: 25px;
+    text-align: center;
+    font-size: .9cm;
+    padding-left: 2cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.textoneh3{
+    color: aliceblue;
+    display: block;
+    position: absolute;
+    top: 24%;
+    padding: 25px;
+    text-align: left;
+    font-size: .9cm;
+    padding-left: 2cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: large;
+
+}
+.banner1 button{
+    background-color: #1399DE;
+    color: antiquewhite;
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    margin-top: -11cm;
+    margin-left: 2cm;
+    
+}
+.textoneh5{
+    color: aliceblue;
+    display: block;
+    position: absolute;
+    top: 44%;
+    padding: 25px;
+    text-align: left;
+    font-size: .9cm;
+    padding-left: 3cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: small;
+    font-weight: 100;
+
+}
+
+/*------------------------------maindiv2---------------------------*/
+
+.maindiv2{
+    position: absolute;
+    top:14.1cm;
+    padding-top: -3cm;
+    z-index: 9;
+    
+}
+.texttwoh1{
+    color: aliceblue;
+    display: block;
+    position: absolute;
+    top: 13%;
+    padding: 25px;
+    text-align: center;
+    font-size: .9cm;
+    padding-left: 2cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+}
+.texttwoh3{
+    color: aliceblue;
+    display: block;
+    position: absolute;
+    top: 25%;
+    padding: 25px;
+    text-align: left;
+    font-size: .9cm;
+    padding-left: 2cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: large;
+
+}
+.banner2 button{
+    background-color: #1399DE;
+    color: antiquewhite;
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    margin-top: -11cm;
+    margin-left: 2cm;
+}
+
+/*----------------maindiv3----------------*/
+
+.maindiv3{
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 27cm;
+    display: flex;
+    background-color: rgb(245, 243, 241);
+    z-index: 10;
+    
+   
+}
+.leftdiv{
+    width: 50%;
+    background-color: rgb(240, 245, 243);
+}
+.leftdiv h1{
+    color: #0f0f0f;
+    margin-top: 2cm;
+    margin-left: 2cm;
+    font-size: 45px;
+}
+.leftdiv p{
+    color: #0c0c0c;
+    margin-left: 2cm;
+    margin-top: 1cm;
+    font-size: x-large;
+}
+.rightdiv{
+    width: 50%;
+    display: flex;
+    background-color: white;
+    
+    
+}
+
+.rightdiv ul li{
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    margin-top: .5cm;
+
+}
+.rightdiv ul li:hover{
+    color: #1399DE;
+}
+.image3{
+    width: 200px;
+    height: 140px;
+    display: flex;
+    align-items: center;   
+}
+
+
+/*---------------------maindiv4-----------*/
+
+.maindiv4{
+    position: relative;
+    z-index: 11;
+    top: 24cm;
+        
+}
+.textfourh1{
+    color: aliceblue;
+    display: block;
+    position: absolute;
+    top: 9%;
+    padding: 25px;
+    text-align: center;
+    font-size: .9cm;
+    padding-left: 20cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+}
+.textfourh3{
+    color: aliceblue;
+    display: block;
+    position: absolute;
+    top: 13%;
+    padding: 25px;
+    text-align: initial;
+    font-size: .61cm;
+    padding-left: 20cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding-top: 2cm;
+}
+.banner4 button{
+    
+        background-color: #1399DE;
+        color: antiquewhite;
+        cursor: pointer;
+        width: 250px;
+        height: 60px;
+        border-radius: 6px;
+        position: relative;
+        display: block;
+        margin-top: -9cm;
+        margin-left: 20cm;
+    }
+
+.maindiv5{
+    padding-bottom: 0;
+    position: relative;
+    z-index: 12;
+    top: 20cm;
+}
+.textfiveh1{
+    color: aliceblue;
+    display: block;
+    position: absolute;
+    top: 15%;
+    padding: 25px;
+    text-align: center;
+    font-size: .9cm;
+    padding-left: 2cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+}
+.textfiveh3{
+    color: aliceblue;
+    display: block;
+    position: absolute;
+    top: 13%;
+    padding: 25px;
+    text-align: initial;
+    font-size: .61cm;
+    padding-left: 2cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding-top: 3cm;
+    
+}
+.banner5 button{
+    
+    background-color: #1399DE;
+    color: antiquewhite;
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    border-radius: 6px;
+    position: relative;
+    display: block;
+    margin-top: -8cm;
+    margin-left: 2cm;
+}
+
+button p{
+    font-size: 17px;
+}
+
+.footer{
+    background-color: #0f171e;;
+    height: 132px;
+    align-items: center;
+    color: white;
+    z-index: 13;
+    position: absolute;
+    width: 100%;   
+    top: 67cm;
+}
+.prime-logo{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+    padding-top: 10px;
+    
+  
+}
+.final-list{
+    
+    display: flex;
+     margin-left: 275px;
+     padding: 25px;
+    font-family: sans-serif;
+    
+}
